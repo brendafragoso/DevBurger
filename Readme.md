@@ -1,75 +1,51 @@
-🍔 DevBurger Interface
-A DevBurger Interface é a aplicação frontend da hamburgueria DevBurger, com duas áreas principais:
+# 🍔 DevBurger Interface
 
-Área do Cliente – Visualização de produtos e realização de pedidos.
+Frontend da hamburgueria **DevBurger**, com duas áreas principais:
 
-Área Administrativa – Gerenciamento de produtos, categorias e pedidos.
+- **Área do Cliente**: visualização de produtos e pedidos.  
+- **Área Administrativa**: gerenciamento de produtos, categorias e pedidos.
 
-💡 Esta interface consome dados da [DevBurger API], que fornece todas as funcionalidades do sistema.
+🔗 Esta interface consome dados da [DevBurger API].
 
-📌 Índice
-Recursos
+---
 
-Tecnologias
+## 📌 Índice
 
-Instalação
+- [Recursos](#recursos)  
+- [Tecnologias](#tecnologias)  
+- [Instalação](#instalação)  
+- [Configuração](#configuração)
 
-Configuração
+---
 
-✅ Recursos
-🛍️ Área do Cliente
-Navegação por categorias.
+## ✅ Recursos
 
-Adição de produtos ao carrinho.
+### 🛍️ Área do Cliente
 
-Visualização e finalização de pedidos.
+- Navegação por categorias  
+- Adição de produtos ao carrinho  
+- Visualização e finalização de pedidos  
 
-🛠️ Área Administrativa
-Gerenciamento de produtos (criar, editar e remover).
+### 🛠️ Área Administrativa
 
-Gerenciamento de categorias.
+- CRUD de produtos  
+- Gerenciamento de categorias  
+- Controle de pedidos em andamento  
 
-Controle de pedidos em andamento.
+---
 
-🧰 Tecnologias
-React.js – Biblioteca para construção de interfaces.
+## 🧰 Tecnologias
 
-React Router – Gerenciamento de rotas.
+- **React.js** – Interface interativa  
+- **React Router** – Gerenciamento de rotas  
+- **Axios** – Requisições HTTP  
+- **Styled Components** – CSS-in-JS  
 
-Axios – Cliente HTTP para integração com a API.
+---
 
-Styled Components – Estilização com CSS-in-JS.
+## 🚀 Instalação
 
-🚀 Instalação
 Clone o repositório:
 
-bash
-Copiar
-Editar
+```bash
 git clone https://github.com/brendafragoso/devburger-interface.git
-Acesse o diretório do projeto:
-
-bash
-Copiar
-Editar
-cd devburger-interface
-Instale as dependências:
-
-bash
-Copiar
-Editar
-npm install
-Inicie o servidor de desenvolvimento:
-
-bash
-Copiar
-Editar
-npm start
-⚙️ Configuração
-Certifique-se de que a DevBurger API está rodando localmente.
-Atualize a URL base da API em src/config/api.js:
-
-js
-Copiar
-Editar
-export const API_BASE_URL = 'http://localhost:3333';
