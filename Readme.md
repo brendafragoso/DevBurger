@@ -1,20 +1,9 @@
-# 🍔 DevBurger Interface
+# 🍔 DevBurger
 
-Frontend da hamburgueria **DevBurger**, com duas áreas principais:
+Projeto da hamburgueria **DevBurger**, com duas áreas principais:
 
 - **Área do Cliente**: visualização de produtos e pedidos.  
 - **Área Administrativa**: gerenciamento de produtos, categorias e pedidos.
-
-🔗 Esta interface consome dados da [DevBurger API].
-
----
-
-## 📌 Índice
-
-- [Recursos](#recursos)  
-- [Tecnologias](#tecnologias)  
-- [Instalação](#instalação)  
-- [Configuração](#configuração)
 
 ---
 
@@ -48,4 +37,4 @@ Frontend da hamburgueria **DevBurger**, com duas áreas principais:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/brendafragoso/devburger-interface.git
+git clone https://github.com/brendafragoso/DevBurger.git
